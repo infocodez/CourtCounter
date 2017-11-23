@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="team_vertical">16dp</dimen>
+    <dimen name="team_textSize">14sp</dimen>
+    <dimen name="score_marginBottom">24dp</dimen>
+    <dimen name="score_textSize">56sp</dimen>
+    <dimen name="button_horizontal">24dp</dimen>
+    <dimen name="button2_vertical">8dp</dimen>
+    <dimen name="button_reset_bottom">32dp</dimen>
+</resources>

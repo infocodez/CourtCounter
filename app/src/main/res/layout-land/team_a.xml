@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/linearLayout_horizontal"
+    android:paddingRight="@dimen/linearLayout_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/team_vertical"
+        android:layout_marginTop="@dimen/team_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="@string/team_a"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/team_textSize" />
+
+    <TextView
+        android:id="@+id/team_a_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/score_marginBottom"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:text="@string/score"
+        android:textColor="@color/black"
+        android:textSize="@dimen/score_textSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_plus_3_points_team_a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="plusThreePoints"
+            android:text="@string/plus_3_points" />
+
+        <Button
+            android:id="@+id/button_plus_2_points_team_a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="plusTwoPoints"
+            android:text="@string/plus_2_points" />
+
+        <Button
+            android:id="@+id/button_free_throw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="freeThrow"
+            android:text="@string/free_throw" />
+
+    </LinearLayout>
+
+</LinearLayout>

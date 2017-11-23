@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linearLayout_horizontal">16dp</dimen>
+    <dimen name="team_vertical">16dp</dimen>
+    <dimen name="team_textSize">24sp</dimen>
+    <dimen name="score_marginBottom">16dp</dimen>
+    <dimen name="score_textSize">56sp</dimen>
+    <dimen name="button_reset_bottom">16dp</dimen>
+</resources>
